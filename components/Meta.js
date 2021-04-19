@@ -8,13 +8,13 @@ const Meta = ({ title, keywords, description }) => {
       <meta name='description' content={description} />
       <meta charSet='utf-8' />
       <link rel='icon' href='/favicon.ico' />
-      <title>{title}</title>
+      <title>{title} | Polygon Tier Generation</title>
     </Head>
   )
 }
 
 Meta.defaultProps = {
-  title: 'Polytier | Polygon Tier Generation',
+  title: 'Polytier',
   keywords: 'polygon, tier, generation',
   description: 'Generate your tiers for Polygon',
 }
